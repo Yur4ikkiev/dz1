@@ -1,4 +1,102 @@
-l.recept__menu item--mod {
-    flex-direction: column;
+.page {
+    width: 80%;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+.page__header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.page__aboutme {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.aboutme__img {
+    width: 25%;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 24px;
+    border: 1px solid black;
+}
+
+.page__button {
+    text-align: center;
+}
+
+.page__button-btn {
+    background-color: #000;
+}
+
+a {
+    margin: 0 auto;
+    font-size: 30px;
+    color: aqua;
+}
+
+.recept__body {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(216, 215, 215, 0.935);
+}
+
+li {
+    font-size: 24px;
+}
+
+.recept__body-header {
+    width: 60%;
+    margin: 0 auto;
+    color: red;
+    margin-bottom: 20px;
+    text-align: center;
+    -webkit-text-stroke: 0.2px #000;
+}
+
+.recept__body-menu,
+.recept__body-cook {
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+    color: rgb(94, 9, 9);
+    margin: 0 auto;
+}
+
+.recept__menu-img {
+    width: 0 auto;
+}
+
+.recept__body-cook {
+    flex-wrap: wrap;
+}
+
+.block-cook {
     list-style-type: none;
+}
+
+.block-cook item {
+    width: 45%;
+}
+
+.block-cook-img {
+   display: flex;
+   justify-content: center;
+    width: 500px;
 }
